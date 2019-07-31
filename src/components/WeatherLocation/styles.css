@@ -1,0 +1,15 @@
+.weatherLocationCont {
+	background-color: #001b52;
+	border-radius: 5px;
+	width: 500px;
+	height: 250px;
+	box-shadow: 11px 11px 20px 2px rgb(86, 86, 86);
+}
+
+.locationCont {
+	font-size: 28px;
+	color: #cccccc;
+	font-weight: bold;
+	text-align: left;
+	padding: 16px;
+}

@@ -1,0 +1,19 @@
+.weatherDataCont {
+	background-color: #282c34;
+	margin: 0px 15px 0px 15px;
+	height: 100px;
+	padding-top: 25px;
+
+}
+
+.weatherExtraInfoCont {
+	display: inline-grid;
+	margin-left: 100px;
+
+}
+
+.weatherTemperatureCont {
+	font-size: 30px;
+	display: inline-block;
+
+}
