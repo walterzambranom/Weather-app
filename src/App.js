@@ -12,11 +12,17 @@ const cities = [
 ];
 //Esto es una prueba de commits
 class App extends Component {
+	handleSelectedLocation = city => {
+		console.log(`handleSelectedLocation ${city}`);
+	}
 	render() {
 		return (
 			<div className="App" >
 				<header className="App-header" >
-					<LocationList cities={cities}></LocationList>
+					<LocationList
+						cities={cities}
+						onSelectedLocation={this.handleSelectedLocation}>
+					</LocationList>
 				</header>
 			</div>
 		);
