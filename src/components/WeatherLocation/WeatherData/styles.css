@@ -1,5 +1,5 @@
 .weatherDataCont {
-	background-color: #282c34;
+	background-color: #b7b7b7;
 	width: 100%;
 	height: 100px;
 	line-height: 100px;
@@ -33,4 +33,8 @@
 .temperatureType {
 	font-weight: bold;
 	color: rgb(228, 227, 227);
+}
+
+.wicon {
+	color: aqua;
 }
