@@ -26,7 +26,7 @@ class ForecastExtended extends Component {
 
 	constructor() {
 		super();
-		this.state = { forecastData: null }
+		this.state = { forecastData: null };
 	}
 
 	componentDidMount() {
@@ -70,7 +70,7 @@ class ForecastExtended extends Component {
 	render() {
 		const { city } = this.props;
 		const { forecastData } = this.state;
-		return (<div >
+		return (<div>
 			<h2 className='forecast-title'>Pronóstico extendido para {city}</h2>
 			{forecastData ?
 				this.renderForecastItemDays(forecastData) :
