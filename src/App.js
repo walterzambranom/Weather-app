@@ -12,7 +12,7 @@ const cities = [
 	'Buenos Aires,ar',
 	'Washington,us',
 	'Bogota,col',
-	'Cali,col',
+	'Cali,co',
 	'Madrid,es',
 	'Lima,pe',
 ];
